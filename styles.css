@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-image: url('image.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: darkmagenta;
+}
+
+.section:nth-child(odd) {
+    background-color:lightpink;
+}
+
+.section:nth-child(even) {
+    background-color: wheat;
+}
+
+.content {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+}
+
+.section1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.2em;
+}
+
+.section2 {
+    font-family: 'Georgia', cursive;
+    font-size: 1.1em;
+}
+
+.section3 {
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+
+.section4 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3em;
+}
+
+.section5 {
+    font-family: 'Verdana', fantasy;
+    font-size: 1.2em;
+}
